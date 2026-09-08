@@ -22,6 +22,7 @@ The production site is generated in `dist/`. Configure the host to serve `index.
 - Four original generated service photographs, optimised as WebP. Prompts and asset paths are in `IMAGE-PROMPTS.md`.
 - WhatsApp: https://wa.me/41795541311
 - Phone: +41 79 554 13 11
+- Address: Althardstrasse 10, 8105 Regensdorf
 - Email: info@turicummontagen.ch
 
 Edit service data and page content in `src/main.js`; styling is in `src/style.css`.
@@ -32,6 +33,10 @@ The form validates required fields and prepares a message in the visitor's email
 
 ## Before publication
 
-Add the verified business address, company representation and commercial register details to the legal page, and hosting details to the privacy page. Have the final legal information reviewed for the actual business and hosting setup. Add authorised real project photography and project descriptions to the references page. The generated photographs are illustrative and must not be represented as completed client projects.
+Add the verified company representation and commercial register details to the legal page, and hosting details to the privacy page. Have the final legal information reviewed for the actual business and hosting setup. Four supplied photographs are shown on the references page and in the homepage reference preview. Add verified project names and descriptions when available. The generated photographs are illustrative and must not be represented as completed client projects.
 
 DM Sans and Manrope are served locally from `public/fonts/`; the website makes no external font requests.
+
+## Reference photographs
+
+The four user-supplied WebP images are copied unchanged into `public/images/references/`. The gallery provides full-image viewing, previous/next navigation, keyboard controls and Escape to close. Captions describe visible installations without inventing clients, locations or project dates.
