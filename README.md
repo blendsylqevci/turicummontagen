@@ -33,10 +33,12 @@ The form validates required fields and prepares a message in the visitor's email
 
 ## Before publication
 
-Add the verified company representation and commercial register details to the legal page, and hosting details to the privacy page. Have the final legal information reviewed for the actual business and hosting setup. Four supplied photographs are shown on the references page and in the homepage reference preview. Add verified project names and descriptions when available. The generated photographs are illustrative and must not be represented as completed client projects.
+Add the verified company representation and commercial register details to the legal page, and hosting details to the privacy page. Have the final legal information reviewed for the actual business and hosting setup. Sixteen supplied photographs are shown on the references page. Twelve of these are also assigned to the relevant service galleries. The homepage keeps its existing reference preview. Add verified project names and descriptions when available. The generated photographs are illustrative and must not be represented as completed client projects.
 
 DM Sans and Manrope are served locally from `public/fonts/`; the website makes no external font requests.
 
 ## Reference photographs
 
 The four user-supplied WebP images are copied unchanged into `public/images/references/`. The gallery provides full-image viewing, previous/next navigation, keyboard controls and Escape to close. Captions describe visible installations without inventing clients, locations or project dates.
+
+The twelve additional September photographs and their category assignments are documented in `PHOTO-CATEGORIES.md` and `src/project-photos.js`. These files use the original JPG images, without AI editing.
